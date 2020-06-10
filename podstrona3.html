@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang=pl>
+    <head>
+        <meta charset=utf-8>
+        <title>Kultura</title>
+        <link rel="shortcut icon" href="img/znaczek.png">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div class="topnav" id="myTopnav">
+            <a href="index.html" >Główna</a>
+            <a href="podstrona1.html">Historia</a>
+            <a href="podstrona2.html">Demografia</a>
+            <a href="podstrona3.html" class="active">Kultura</a>
+           
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+        <div class="header2" ><h1>Kultura</h1><a href="index.html"><img src="img/znaczek.png" alt="herb"></a></div>
+        <div>Bezpośrednio na południe od National Mall leży Tidal Basin. Jego brzegi porastają rzędy ozdobnych drzew wiśniowych, podarowanych przez Japończyków. Wokół tego zbiornika wodnego wzniesiono między innymi Pomnik Roosevelta, Pomnik Jeffersona oraz Pomnik Wojny.
+
+            Archiwum Narodowe przechowuje tysiące ważnych dla amerykańskiej historii dokumentów, włącznie z oryginałami Deklaracji Niepodległości, Konstytucji oraz Karty Praw.
+            
+            Instytut Smithsona to fundacja zajmująca się zagadnieniami związanymi z szeroko pojętą edukacją, założona przez Kongres w 1846. Utrzymuje ona większość państwowych muzeów oraz galerii Waszyngtonu. Rząd częściowo finansuje Instytut, zatem jego zbiory dostępne są dla zwiedzających bezpłatnie. Najliczniej uczęszczanym obiektem wystawowym pod kuratelą fundacji było w 2007 Muzeum Historii Naturalnej, położone w obrębie National Mall. Inne położone nieopodal tego parku nadzorowane przez Instytut muzea i galerie to National Air and Space Museum, Narodowe Muzeum Sztuki Afrykańskiej, National Museum of American History, Narodowe Muzeum Indian Amerykańskich, galerie Freer and Sackler Galleries (obie zorientowane na azjatycką sztukę i kulturę), Hirshhorn Museum and Sculpture Garden, Arts and Industries Building, S. Dillon Ripley Center oraz Smithsonian Institution Building (znana jako „Zamek”), która służy jako główna siedziba Instytutu. Smithsonian American Art Museum and the Renwick Gallery (znane niegdyś jako National Museum of American Art) oraz National Portrait Gallery znajdują się w tym samym budynku, Donald W. Reynolds Center (do 2005 obiekt nosił nazwę Old Patent Office Building) w pobliżu Chinatown; Renwick Gallery stanowi część Smithsonian American Art Museum, jednak swoje zbiory prezentuje w oddzielnym budynku, nieopodal Białego Domu. Inne muzea i galerie na utrzymaniu Instytutu Smithsona to między innymi: Anacostia Community Museum w południowo-wschodniej części miasta, National Postal Museum niedaleko Union Station oraz National Zoo w Woodley Park.</div>
+            <div>Narodowa Galeria Sztuki w Waszyngtonie, również znajdująca się na terenach National Mall, nieopodal Kapitolu, nierzadko mylona jest ze Smithsonian American Art Museum. W rzeczywistości są to jednak zupełnie niezależne od siebie instytucje, a Galeria Narodowa nie jest częścią Instytutu Smithsona, lecz wyłączną własnością rządu Stanów Zjednoczonych. Wstęp do niej jest darmowy. Zachodni Budynek przechowuje eksponaty sztuki amerykańskiej i europejskiej z XIX wieku, Wschodni zaś, zaprojektowany przez architekta I.M. Pei, prace artystów współczesnych. National Building Museum ulokowane w byłej Pension Building niedaleko Judiciary Square, zostało założone przez Kongres jako instytucja prywatna, gości ekspozycje dotyczące architektury i urbanistyki.
+
+                W Dystrykcie działa również wiele prywatnych galerii i muzeów, udostępniających istotnych rozmiarów zbiory, między innymi National Museum of Women in the Arts, Corcoran Gallery of Art (największe niepubliczne muzeum w Waszyngtonie), oraz Phillips Collection w Dupont Circle, pierwsze muzeum sztuki nowoczesnej w Stanach Zjednoczonych. Inne prywatne muzea to między innymi Newseum, International Spy Museum, Muzeum National Geographic Society oraz Marian Koshland Science Museum. United States Holocaust Memorial Museum w pobliżu National Mall przechowuje przedmioty oraz dokumenty związane z Holocaustem.</div>
+                
+<br><br>                
+<div class="slideshow-container">
+
+ 
+  <div class="mySlides fade">
+    
+    <img class="galery" src="img/zdj1.jpg" >
+   
+  </div>
+
+  <div class="mySlides fade">
+    
+    <img class="galery" src="img/zdj2.jpg" >
+
+  </div>
+
+  <div class="mySlides fade">
+   
+    <img class="galery" src="img/zdj3.jpg" >
+   
+
+  </div>
+</div>
+<br> <br>
+</div>
+<div class="map"><iframe class="iframe2" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d118163.1284119076!2d-77.11218255860717!3d38.89900635583133!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c6de5af6e45b%3A0xc2524522d4885d2a!2sWaszyngton%2C%20Dystrykt%20Kolumbii%2C%20Stany%20Zjednoczone!5e0!3m2!1spl!2spl!4v1591807169370!5m2!1spl!2spl" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></div>
+   <div>
+    <audio controls>
+        <source src="audio/piosnka.mp3" type="audio/mpeg">
+        </audio>
+   </div>
+        <script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 3000); 
+}
+</script>
+    </body>
+</html>
